@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                     width: 10.0,
                   ),
                   Text(
-                    "080-2134-4234",
+                    "080-2134-42124",
                     style: TextStyle(
                       color: Colors.teal.shade900,
                       fontSize: 20.0,
