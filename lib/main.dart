@@ -34,40 +34,35 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 8.0,
                 )),
             Card(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
-                child: Row(children: <Widget>[
-                  Icon(Icons.phone, color: Colors.teal.shade900),
-                  SizedBox(
-                    width: 10.0,
+              color: Colors.white,
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+              child: ListTile(
+                leading: Icon(Icons.phone, color: Colors.teal.shade900),
+                title: Text(
+                  "080-2134-4212",
+                  style: TextStyle(
+                    color: Colors.teal.shade900,
+                    fontSize: 20.0,
                   ),
-                  Text(
-                    "080-2134-4212",
-                    style: TextStyle(
-                      color: Colors.teal.shade900,
-                      fontSize: 20.0,
-                    ),
-                  ),
-                ])),
+                ),
+              ),
+            ),
             Card(
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
               color: Colors.white,
-              child: Row(children: <Widget>[
-                Icon(
+              child: ListTile(
+                leading: Icon(
                   Icons.email,
                   color: Colors.teal.shade900,
                 ),
-                SizedBox(
-                  width: 10.0,
-                ),
-                Text(
+                title: Text(
                   "JungKook@gmail.com",
                   style: TextStyle(
                     fontSize: 20.0,
                     color: Colors.teal.shade900,
                   ),
                 ),
-              ]),
+              ),
             ),
           ],
         )),
